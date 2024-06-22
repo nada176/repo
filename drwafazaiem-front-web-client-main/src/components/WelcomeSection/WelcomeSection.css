@@ -1,0 +1,35 @@
+.welcomeSection {
+    background-color: #4CAF50; /* This is a placeholder green, match it to your exact color */
+    color: white;
+    padding: 50px; /* Adjust padding to match your design */
+    text-align: center;
+  }
+  
+  .welcomeSection h2 {
+    margin: 0;
+    font-size: 36px; /* Adjust to match the design */
+    padding-bottom: 20px; /* Space between the title and paragraph */
+  }
+  
+  .welcomeSection p {
+    margin: 0 auto;
+    font-size: 18px; /* Adjust to match the design */
+    line-height: 1.6;
+    max-width: 600px; /* Adjust width as necessary */
+    padding-bottom: 30px; /* Space between the paragraph and button */
+  }
+  
+  .welcomeSection button {
+    background-color: #f8f9fa; /* Light background for the button */
+    border: none;
+    padding: 10px 20px; /* Button padding */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold;
+    cursor: pointer; /* Hand cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for a hover effect */
+  }
+  
+  .welcomeSection button:hover {
+    background-color: #e2e6ea; /* Slightly darker background on hover */
+  }
+  

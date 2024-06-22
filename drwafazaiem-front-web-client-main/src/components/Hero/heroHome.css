@@ -1,0 +1,25 @@
+.App {
+    position: relative; /* For absolute positioning context */
+    font-family: 'Arial', sans-serif; /* Your preferred font */
+  }
+  
+  /* You can add global styles here */
+  
+.heroHome {
+    /* Use a placeholder background image for now. Replace with the actual image path. */
+    background-image: url('../../assets//images/hero-1.jpg');
+    background-size: cover;
+    padding-top: 70px; /* Same as nav height if you want content to start after nav */
+    padding-bottom: 200px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .heroHome h1 {
+    font-size: 48px; /* Adjust this as needed */
+    margin-bottom: 20px;
+  }
+  
+  .heroHome p {
+    font-size: 24px; /* Adjust this as needed */
+  }
+  

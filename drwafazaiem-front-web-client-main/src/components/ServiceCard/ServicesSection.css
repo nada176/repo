@@ -1,0 +1,42 @@
+.servicesSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #333; /* Placeholder color, set to match your design */
+}
+
+.serviceCard {
+  width: 300px; /* Adjust based on your design */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Assuming a dark background */
+}
+
+.serviceIcon {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+.serviceTitle {
+  margin-bottom: 10px;
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.serviceDescription {
+  font-size: 16px; /* Adjust font size as needed */
+  margin-bottom: 20px;
+}
+
+.moreButton {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f8f9fa; /* Light background for the button */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold;
+  cursor: pointer; /* Hand cursor on hover */
+}
+
+.moreButton:hover {
+  background-color: #e2e6ea; /* Slightly darker background on hover */
+}

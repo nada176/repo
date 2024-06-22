@@ -1,0 +1,28 @@
+/* StepByStepSection.css */
+.step-by-step-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align text block to the right */
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Center the background image */
+  height: 400px; /* Adjust the height as necessary */
+  position: relative; /* Needed to position the text over the image */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding inside the section */
+}
+
+.procedure-text {
+  width: 40%; /* Adjust the width as necessary */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the text for better readability */
+  padding: 20px;
+}
+
+.procedure-text h2 {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.procedure-text p {
+  font-size: 1em;
+}

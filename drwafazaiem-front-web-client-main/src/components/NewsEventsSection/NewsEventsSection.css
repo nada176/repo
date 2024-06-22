@@ -1,0 +1,86 @@
+/* NewsEventsSection.css */
+
+.news-events-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust the max-width as necessary */
+  }
+  
+  .news-events-left, .news-events-right {
+    width: 48%; /* Adjust the width as necessary for your layout */
+  }
+  
+  .news-event-entry {
+    background: #fff;
+    margin-bottom: 30px; /* Spacing between entries */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+  }
+  
+  .news-event-date {
+    background: #333; /* Your brand color for the date circle */
+    color: #fff;
+    border-radius: 50%;
+    width: 80px; /* Size of the date circle */
+    height: 80px; /* Size of the date circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 20px; /* Spacing between date and content */
+  }
+  
+  .news-event-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px; /* Spacing between image and text */
+  }
+  
+  .news-event-text-content {
+    padding-left: 90px; /* Space for date circle */
+  }
+  
+  .news-event-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-event-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-btn {
+    background: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .news-events-section {
+      flex-direction: column;
+    }
+  
+    .news-events-left, .news-events-right {
+      width: 100%;
+    }
+  
+    .news-event-text-content {
+      padding-left: 0;
+    }
+  
+    .news-event-date {
+      position: absolute;
+      left: 20px; /* Align with the card padding */
+    }
+  }
+  
+  /* You might need to adjust some values here depending on your actual layout and preferences */
+  

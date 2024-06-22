@@ -1,0 +1,64 @@
+.improving-smile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; /* Adjust the padding as necessary */
+    max-width: 1200px; /* Adjust the max-width as necessary */
+    margin: auto;
+  }
+  
+  .text-content {
+    width: 50%;
+    padding-right: 20px; /* Spacing between text and image */
+  }
+  
+  .text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .text-content button {
+    background-color: #007bff; /* Bootstrap primary color, or choose your own */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .image-content {
+    width: 50%;
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove space beneath the image */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .improving-smile-section {
+      flex-direction: column;
+    }
+  
+    .text-content, .image-content {
+      width: 100%;
+    }
+  
+    .text-content {
+      padding-right: 0;
+    }
+  
+    .image-content img {
+      max-width: 100%;
+    }
+  }
+  

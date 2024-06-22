@@ -1,0 +1,36 @@
+.navBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px; /* Adjust the height to match your design */
+    background-color: #00AABB; /* Replace with the color code from your design */
+    z-index: 1000; /* Ensure nav is above other content */
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    padding-left: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .navItem {
+    padding: 0 20px; /* Space between items */
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    transition: color 0.2s; /* Smooth color transition */
+  }
+  
+  .navItem a:hover,
+  .navItem a.active {
+    color: #FFEECC; /* Highlight color for active/hover state */
+  }
+  

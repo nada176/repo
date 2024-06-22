@@ -1,0 +1,35 @@
+.advantages-section {
+    padding: 50px 0; /* Adjust the padding to match your design */
+    background-color: #f8f9fa; /* Adjust the background color as needed */
+  }
+  
+  .advantage-item {
+    text-align: center; /* Center the text and button */
+    padding: 20px; /* Add some padding around each item */
+  }
+  
+  .advantage-item h3 {
+    margin-bottom: 15px; /* Space below the title */
+    font-size: 1.5rem; /* Adjust the font-size as needed */
+  }
+  
+  .advantage-item p {
+    margin-bottom: 20px; /* Space above the button */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Use Bootstrap's primary color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    color: white; /* Text color for the button */
+    cursor: pointer; /* Cursor to pointer when hovering over the button */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .advantage-item {
+      margin-bottom: 30px; /* Space between items when they stack on smaller screens */
+    }
+  }
+  

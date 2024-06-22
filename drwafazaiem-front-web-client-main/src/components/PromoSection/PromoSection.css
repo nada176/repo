@@ -1,0 +1,37 @@
+.promo-section {
+    position: relative;
+    background: url('../../assets//images/hero-1.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0; /* Adjust the padding as needed */
+  }
+  
+  .promo-content {
+    max-width: 300px; /* Set the width of the red card */
+    background-color: #ff0000; /* Red background */
+    padding: 20px;
+    position: relative; /* Adjust as needed */
+    left: 10px; /* Adjust the position as needed */
+    bottom: 0px; 
+    color: white;
+  }
+  
+  .promo-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  /* Add responsiveness for different screen sizes */
+  @media (max-width: 768px) {
+    .promo-content {
+      left: 20px; /* Adjust for smaller screens */
+      top: 20px; /* Adjust for smaller screens */
+    }
+  
+    .promo-button {
+      font-size: 16px; /* Adjust size for smaller screens */
+    }
+  }
+  
